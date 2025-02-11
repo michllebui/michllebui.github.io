@@ -83,6 +83,45 @@ header h1 {
 }
 
 header p {
-    font-size: clamp(1rem, 1.5vw, 1.5rem);
-    margin-bottom: 4rem;
+    font-size: clamp(1rem, 1.4vw, 1.5rem);
+    margin-bottom: 2rem;
+    line-height: 1.8rem;
+}
+
+/* ART SHOWCASE */
+
+#game, #fanart, #original {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6rem 7%;
+    gap: 4rem;
+}
+
+.left {
+    flex: 1;
+    text-align: left;
+    max-width: 25%;
+    margin-bottom: 10rem;
+}
+
+.left h2 {
+    margin-bottom: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+
+.left p {
+    font-size: clamp(0.8rem, 1.2vw, 1.2rem);
+    margin-bottom: 2rem;
+}
+
+.right {
+    flex: 1;
+    text-align: right;
+    max-width: 60%;
+}
+
+img {
+   width: 100%;
+   height: auto;
 }
