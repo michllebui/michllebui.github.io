@@ -29,6 +29,14 @@ a, .btn {
 
 /* DESKTOP NAVIGATION */
 
+#desktop-nav {
+  background-color: #4E6851;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  transition: top 0.3s
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -50,13 +58,9 @@ nav {
 }
 
 .nav-links a {
-  color: #443d3c;
+  color : #000000;
+  font-weight: 600 ;
   text-decoration: none;
-}
-
-.nav-links a:hover {
-  color: #9a8b88;
-  
 }
 
 .logo {
