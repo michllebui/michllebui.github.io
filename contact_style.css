@@ -126,7 +126,7 @@ header h1 {
 #socials a, #business a {
   font-weight: bold;
   color: #4E6851;
-  transition: color 300ms ease;
+  text-decoration: none;
 }
 
 
