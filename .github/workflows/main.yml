@@ -1,3 +1,5 @@
-title: My Portfolio
-description: A personal portfolio with artworks and hobbies.
-theme: minima
+on:
+  push:
+    branches:
+      - main 
+
